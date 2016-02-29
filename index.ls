@@ -49,7 +49,7 @@ svg.selectAll \circle
 
 
 state = 0
-
+/*
 setInterval (->
   state := 1 - state
   if state == 0 =>
@@ -60,5 +60,5 @@ setInterval (->
     svg.selectAll \circle .transition!duration 2000 
       .attr do
         cx: -> xscale2 it.idx
-
 ), 4000
+*/
